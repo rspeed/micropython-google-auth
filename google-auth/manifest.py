@@ -8,3 +8,5 @@ require('requests')
 
 # Annoyingly not require-able
 package('rsa', base_path = '../lib/micropython-rsa-signing')
+
+package('google')
