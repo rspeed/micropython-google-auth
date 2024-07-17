@@ -13,7 +13,6 @@
 # limitations under the License.
 
 from json import loads as load_json_string, dumps as dump_json_string
-from urllib.parse import urlencode
 from datetime import datetime, timedelta
 
 from google.auth.util.exponential_backoff import ExponentialBackoff
@@ -21,6 +20,7 @@ from google.auth.util.helpers import utcnow
 from google.auth.exceptions import RefreshError, MalformedError
 from google.auth.transport import DEFAULT_RETRYABLE_STATUS_CODES
 from google.auth.util.helpers import from_bytes
+from google.auth.util.urlencode import urlencode
 from google.auth import metrics
 
 from google.auth.transport.base import BaseRequest, BaseResponse
