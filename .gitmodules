@@ -1,0 +1,3 @@
+[submodule "lib/micropython-rsa-signing"]
+	path = lib/micropython-rsa-signing
+	url = https://github.com/artem-smotrakov/micropython-rsa-signing.git
