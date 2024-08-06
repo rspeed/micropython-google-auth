@@ -22,8 +22,6 @@ from google.auth.crypt.base import BaseSigner
 def encode (signer: BaseSigner, payload: dict[str, str], header: dict[str, str] | None = None, key_id: str | None = None) -> bytes:
 	"""Make a signed JWT."""
 
-	print()
-
 	if header is None:
 		header = {}
 
